@@ -28,6 +28,8 @@ public class EmpController {
     @RequestMapping(value="/save",method = RequestMethod.POST)  
     public String save(@ModelAttribute("emp") Emp emp){  
         dao.save(emp);  
+        System.out.println("mmmmm");
+        System.out.println("mmmmm");
         return "redirect:/viewemp";//will redirect to viewemp request mapping  
     }  
     /* It provides list of employees in model object */  
