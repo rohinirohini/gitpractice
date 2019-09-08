@@ -4,8 +4,7 @@ public class Emp {
 private int id;  
 private String name;  
 private float salary;  
-private String designation; 
-int id1;
+private String designation;  
   
 public int getId() {  
     return id;  
