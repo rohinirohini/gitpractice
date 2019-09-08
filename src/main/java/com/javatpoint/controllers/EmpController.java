@@ -29,7 +29,10 @@ public class EmpController {
     public String save(@ModelAttribute("emp") Emp emp){  
         dao.save(emp);  
         System.out.println("mmmmm");
+
         System.out.println("mmmmm");
+
+
         return "redirect:/viewemp";//will redirect to viewemp request mapping  
     }  
     /* It provides list of employees in model object */  
