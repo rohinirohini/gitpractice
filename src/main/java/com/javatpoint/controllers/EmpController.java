@@ -14,6 +14,10 @@ public class EmpController {
     @Autowired  
     EmpDao dao;//will inject dao from xml file  
       
+    private void syso() {
+		// TODO Auto-generated method stub
+
+	}
     /*It displays a form to input data, here "command" is a reserved request attribute 
      *which is used to display object data into form 
      */  
